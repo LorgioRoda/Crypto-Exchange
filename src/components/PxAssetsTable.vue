@@ -3,7 +3,8 @@
     <thead>
       <tr class="bg-gray-100 border-b-2 border-gray-400">
         <th></th>
-        <th :class="{ up: this.sortOder === 1, down: this.sortOrder === -1}"
+        <!-- :class="{ up: this.sortOder === 1, down: this.sortOrder === -1}" -->
+        <th 
         class="flex">
           <span
           class="underline cursor-pointer"
