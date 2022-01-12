@@ -5,7 +5,8 @@ var requestOptions = {
   redirect: 'follow',
   mode: 'cors',
   header: {
-    'Access-Control-Allow-Origin': '*'
+    'Access-Control-Allow-Origin': '*',
+    'Accept-Encoding': 'gzip'
   }
 };
 
